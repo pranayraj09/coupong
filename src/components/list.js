@@ -17,7 +17,7 @@ class List extends Component{
     }
 
     componentDidMount(){
-        axios.get(`http://quip-todos.herokuapp.com/get_todos?email=pranay@apple.com`).then(res => {
+        axios.get(`https://quip-todos.herokuapp.com/get_todos?email=pranay@apple.com`).then(res => {
             let tasks = res.data.map(obj => obj.text);
             this.setState({tasks:tasks, initialTasks: tasks})
 
