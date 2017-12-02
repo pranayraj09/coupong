@@ -1,6 +1,7 @@
 {
   "name": "coupang2",
   "version": "0.1.0",
+  "homepage" : "http://pranayraj09.github.io/coupang",
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
