@@ -84,6 +84,10 @@ class List extends Component{
                     {this.state.tasks.map( list =>
                         <li>{list}</li>
                     )}
+                <hr/>
+                <p>
+                    <span>change the to-do list here : <a href="http://www.pranayraj.com/apps/todo">http://www.pranayraj.com/apps/todo</a></span>
+                </p>
             </div>
         )
     }
